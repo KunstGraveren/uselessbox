@@ -37,6 +37,8 @@ Here's a summary and explanation of the code, along with the differences between
 - WS2812B LED strip (single LED)
 
 **Connections:**
+<img width="1055" height="1560" alt="image" src="https://github.com/user-attachments/assets/e6bfdbff-8b79-42b7-83c0-9afd3b47a8c4" />
+
 ```
 [Arduino]
  Pin D2 ----> Data pin for LED (WS2812B)
