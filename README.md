@@ -37,7 +37,8 @@ Hier is een samenvatting en uitleg van de code, samen met de verschillen tussen 
 - WS2812B LED-strip (1 LED)
 
 **Aansluitingen:**
-<img width="1055" height="1560" alt="image" src="https://github.com/user-attachments/assets/e6bfdbff-8b79-42b7-83c0-9afd3b47a8c4" />
+
+<img width="40%" alt="image" src="https://github.com/user-attachments/assets/e6bfdbff-8b79-42b7-83c0-9afd3b47a8c4" />
 
 ```
 [Arduino]
@@ -47,10 +48,3 @@ Hier is een samenvatting en uitleg van de code, samen met de verschillen tussen 
  +5V ----> V+ servo / V+ LED
  GND ----> GND servo / GND schakelaar / GND LED
 ```
-
----
-
-**Kort overzicht:**
-- De schakelaar zorgt voor het wisselen tussen acties.
-- De LED geeft visuele feedback: blauw standaard, rood tijdens uitvoeren.
-- De servo beweegt volgens de gekozen actie, met vertragingen en waggelen voor een grappig effect.
