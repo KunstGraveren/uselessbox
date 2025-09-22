@@ -14,6 +14,7 @@ Voor die de Useless Box hebben gemaakt tijdens The Reality 2025.
 
       - v1.1: 
         - Eind posities zijn niet meer hardcoded, schakelaar interrupt is gebruikt om te "detecteren" wanneer de servo moet stoppen.
+        - Wanneer de Box wordt aangesloten op stroom (usb), en de schakelaar staat omhoog. Dan zal die de schakelaar omhalen, en daar stoppen. Reset de nano door opnieuw de usb kabel aan te sluiten. In de Serial Console, is nu ook de positie terug te lezen waar de schakelaar zich bevindt. (debug)
         
 ---
 
