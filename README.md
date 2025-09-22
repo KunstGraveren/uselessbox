@@ -47,7 +47,7 @@ Hier is een samenvatting en uitleg van de code, samen met de verschillen tussen 
 
 **Aansluitingen:**
 
-<img width="40%" alt="image" src="https://github.com/user-attachments/assets/e6bfdbff-8b79-42b7-83c0-9afd3b47a8c4" />
+<img width="30%" alt="image" src="https://github.com/user-attachments/assets/e6bfdbff-8b79-42b7-83c0-9afd3b47a8c4" />
 <img width="40%" alt="image" src="https://github.com/user-attachments/assets/83f27311-656a-47eb-88c0-1975f5dd8bba" />
 
 
