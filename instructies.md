@@ -1,5 +1,6 @@
 
-![](instructions-images/uselessbox.png)
+<!-- <img width="50%" src="instructions-images/uselessbox-tr.png"> -->
+<img width="50%" src="instructions-images/uselessbox-kg.png">
 
 <!-- TOC -->
 
