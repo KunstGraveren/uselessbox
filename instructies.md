@@ -78,18 +78,14 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
 
 ## **LED:** 
 
-<!-- align="right" -->
-<img  width="40%" src="instructions-images/led-01.png">
+- Buig de LED in de juiste vorm, zodat deze uitkomt bij de aangegeven pinnen. Gebruik hiervoor het punt tangetje.
 
+  <img  width="40%" src="instructions-images/led-01.png">
+  <img  width="50%" src="instructions-images/led-02.png">
 
- - 1. \- Buig de LED in de juiste vorm, zodat deze uitkomt bij de aangegeven pinnen. Gebruik hiervoor het punt tangetje.
+  - **Vraag hulp indien nodig om ervoor te zorgen dat deze goed gepositioneerd / gebogen wordt.**
 
-  \*\*vraag hulp indien nodig om ervoor te zorgen dat deze goed gepositioneerd / gebogen wordt.
-
-  Let op ze “platte zijde” van de led
-
-<!-- align="left" -->
-<img  width="40%" src="instructions-images/led-02.png">
+  - **Let op ze “platte zijde” van de led bij het plaatsen.**
 
 ---
 
@@ -108,11 +104,13 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
       
   - Split en strip de uiteinden van alle draden aan beide zijden. Zorg ervoor dat je ongeveer 3 mm van de isolatie verwijdert.
 
-  - Split de kabel die **NIET** aan de servo zit volledig, zodat je 3 losse kabels overhoud (geel, rood, zwart)
+  - Split de kabel die **NIET** aan de servo zit volledig, zodat je 3 losse kabels overhoud (geel, rood, zwart/bruin)
 
   - Knip de rode (losse draad) doormidden
 
 ## **Servo in de bracket:** 
+
+<img align="right" width="25%" src="instructions-images/servo-mount-01.png">
 
 - Schuif de kabels door het daarvoor bedoelde gat
 
@@ -122,8 +120,7 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
 
 - Schroef de servo in backet vast
 
-<img align="right" width="20%" src="instructions-images/servo-mount-01.png">
-<img width="40%" src="instructions-images/servo-mount-02.png">
+  <img width="40%" src="instructions-images/servo-mount-02.png">
 
 ---
 
@@ -133,7 +130,7 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
       
   - Twist deze twee draden samen zodat ze goed met elkaar verbonden zijn.
 
-<img width="40%" src="instructions-images/bedrading-twist.png">
+    <img width="40%" src="instructions-images/bedrading-twist.png">
 
 
 
@@ -170,13 +167,13 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
         
 **Schakelaar:**  
 
-   4. Zwart 		\-\> GND op de Arduino  
+   4. Zwart/bruin 		\-\> GND op de Arduino  
    5. Geel (signaal) \-\> D3 op de Arduino  
         
 **Servo:**
 
    6. Rood (+) 	\-\> 5V op de Arduino  
-   7. Zwart (-) 	\-\> GND op de Arduino  
+   7. Zwart/bruin (-) 	\-\> GND op de Arduino  
    8. Geel (signaal) \-\> D4 op de Arduino
 
 **\*\*Condensator:**  
