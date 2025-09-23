@@ -73,13 +73,10 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
 
 - Duw de pinnen voorzichtig naar beneden totdat ze gelijk zijn met de onderkant van de bodemplaat.
 
-<br><br>
+- Plaats de Arduino Nano op de pinnen
 
 
 ## **LED:** 
-
-
-- Plaats de nano op de pinnen
 
 <!-- align="right" -->
 <img  width="40%" src="instructions-images/led-01.png">
@@ -182,7 +179,7 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
    7. Zwart (-) 	\-\> GND op de Arduino  
    8. Geel (signaal) \-\> D4 op de Arduino
 
-**\**Condensator:**  
+**\*\*Condensator:**  
 
    9. (+) 	\-\> 5V op de Arduino  
    10. (-) 	\-\> GND op de Arduino  
@@ -192,41 +189,42 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
 
 ---
 
-Stapsgewijs gaan wij de draden solderen aan de Arduino. We beginnen met de gecombineerde zwarte draad van de servo en de schakelaar. Soldeer deze aan de **GND** pin van de Arduino.
+Stapsgewijs gaan wij de draden solderen aan de Arduino. 
+- We beginnen met de gecombineerde zwarte draad van de servo en de schakelaar. Soldeer deze aan de **GND** pin van de Arduino.
 
-<img width="30%" src="instructions-images/solderen-01.png">
+  <img width="30%" src="instructions-images/solderen-01.png">
 
-Neem het andere uiteinde van de zwarte draad en soldeer deze aan de middelste pin van de schakelaar. 
+- Neem het andere uiteinde van de zwarte draad en soldeer deze aan de middelste pin van de schakelaar. 
 
-**Soldeer de draden “ zijwaarts" op de schakelaar.**
+  **Soldeer de draden “ zijwaarts" op de schakelaar.**
 
-<img width="30%" src="instructions-images/solderen-02.png">
+  <img width="30%" src="instructions-images/solderen-02.png">
 
-Soldeer het gehalveerde losse rode draad aan **D2** pin van de Arduino. (die straks naar de led gaat)
+- Soldeer het gehalveerde losse rode draad aan **D2** pin van de Arduino. (die straks naar de led gaat)
 
-<img width="30%" src="instructions-images/solderen-03.png">
+  <img width="30%" src="instructions-images/solderen-03.png">
 
-Soldeer de losse gele draad (signaal) op de schakelaar (deze gaat op een van de buitenste pinnen) 
+- Soldeer de losse gele draad (signaal) op de schakelaar (deze gaat op een van de buitenste pinnen) 
 
-**Soldeer deze "zijwaarts" op de schakelaar**
+  **Soldeer deze "zijwaarts" op de schakelaar**
 
-Het andere uiteinde van de gele draad gaat naar de **D3** pin van de Arduino.
+- Het andere uiteinde van de gele draad gaat naar de **D3** pin van de Arduino.
 
-<img width="30%" src="instructions-images/solderen-04.png">
+  <img width="30%" src="instructions-images/solderen-04.png">
 
-Neem de rode draad van de servo en soldeer deze aan de **5V** pin van de Arduino.
+- Neem de rode draad van de servo en soldeer deze aan de **5V** pin van de Arduino.
 
-<img width="30%" src="instructions-images/solderen-05.png">
+  <img width="30%" src="instructions-images/solderen-05.png">
 
-Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino.
+- Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino.
 
-<img width="30%" src="instructions-images/solderen-06.png">
+  <img width="30%" src="instructions-images/solderen-06.png">
 
-**Indien de condensator nodig is, soldeer deze over de **5V** en de **GND**
+  **Indien de condensator nodig is, soldeer deze over de **5V** en de **GND**
 
-**LET OP: er is een MIN en een PLUS kant. De kant met witte streep met - - - - moet naar de GND!**
+  **LET OP: er is een MIN en een PLUS kant. De kant met witte streep met - - - - moet naar de GND!**
 
-<img width="30%" src="instructions-images/circuit-con.png">
+  <img width="30%" src="instructions-images/circuit-con.png">
 
 
 
@@ -275,67 +273,73 @@ Issues?
 
 ## **Box:** 
 
-Monteer de hoek connectors en de servo bracket aan de zijplaten. Let op dat er een boven- en onderkant is. Waar de gleuf zit is de onderkant van het paneel.
 
-- 4 connectoren aan de ene kant, en 2 connectoren op de andere kant.  
-- Draai deze nog niet helemaal vast, maar zo dat de connector nog net kan bewegen.
-<img width="100%" src="instructions-images/montage-01.png">
 
-  Monteer de schakelaar in de voorplaat waarbij de gele draad naar beneden moet. 
+- Monteer de hoek connectors en de servo bracket aan de zijplaten. 
+  Let op dat er een boven- en onderkant is. Waar de gleuf zit is de onderkant van het paneel.
+
+  - 4 connectoren aan de ene kant, en 2 connectoren op de andere kant.  
+  - Draai deze nog niet helemaal vast, maar zo dat de connector nog net kan bewegen.
+
+  <img width="100%" src="instructions-images/montage-01.png">
+
+- Monteer de schakelaar in de voorplaat waarbij de gele draad naar beneden moet. 
+
+  <img width="50%" src="instructions-images/montage-02.png">
+
+- Monteer de servo mount aan de zijplaat.
+
+  <img width="50%" src="instructions-images/montage-03.png">  
+
+- Plaats de zijplaat met de servo en de voorplaat op de bodem. deze klikt soort van vast in de rand
   
-<img width="50%" src="instructions-images/montage-02.png">
+  - Schroef nu via de voorkant (de kant die aansluit met de zijkant) nu vast met 2 boutjes
 
-  Monteer de servo mount aan de zijplaat.
+  <img width="50%" src="instructions-images/montage-04.png">
+
+- Neem de Servo handel uit het zakje van de servo, en klik deze in de arm. Het makkelijkst is deze met de schuivende beweging erin te klikken.
+
+  <img width="50%" src="instructions-images/montage-05.png">
+
+- Monteer de arm, zodat deze met de punt van de arm horizontaal gelijk is met de box. Dit zodat de deksel dicht kan.
+
+  <img width="50%" src="instructions-images/montage-07.png">
   
-<img width="50%" src="instructions-images/montage-03.png">
+  - **PS, mocht de Arduino nog niet aan geweest zijn, is dit hét moment om dit te doen. Dit zodat deze de servo in de 180 graden stand zet (sluit stand / box dicht).**
 
-  Plaats de zijplaat met de servo en de voorplaat op de bodem. deze klikt soort van vast in de rand
+  - Als de arm gemonteerd is, kan je controleren of die goed zit, door hem op stroom aan te sluiten. Als de arm goed zit, schroef de arm vast.
 
-<img width="50%" src="instructions-images/montage-04.png">
+  - **PAS OP schroefje, is heel klein\!**
 
-  Schroef nu via de voorkant (de kant die aansluit met de zijkant) nu vast met 2 boutjes
+  <img width="50%" src="instructions-images/montage-06.png"> 
 
-  Neem de Servo handel uit het zakje van de servo, en klik deze in de arm. Het makkelijkst is deze met de schuivende beweging erin te klikken.
 
-<img width="50%" src="instructions-images/montage-05.png">
+- Plaats de andere zijde
 
-Monteer de arm, zodat deze met de punt van de arm horizontaal gelijk is met de box. Dit zodat de deksel dicht kan.
+  - Schroef deze vast aan de voorkant, met 2 boutjes
 
-<img width="50%" src="instructions-images/montage-06.png">
+  <img width="50%" src="instructions-images/montage-08.png">
 
-**PS, mocht de Arduino nog niet aan geweest zijn, is dit hét moment om dit te doen. Dit zodat deze de servo in de 180 graden stand zet (sluit stand / box dicht).**
+- Plaats achterplaat.
 
-Als de arm gemonteerd is, kan je controleren of die goed zit, door hem op stroom aan te sluiten. Als de arm goed zit, schroef de arm vast.
+  - Schroef onderste 2 bouten van de achterplaat vast
 
-**PAS OP schroefje, is heel klein\!**
+  <img width="50%" src="instructions-images/montage-09.png">
 
-<img width="50%" src="instructions-images/montage-07.png">
+- Klik de scharnieren aan de top vast, doe dit met beleid.
 
-Plaats de andere zijde
+  - **PAS OP: de vleugels zijn nogal gevoelig en kunnen snel breken\! <br>Vraag iemand om te helpen, als het niet lukt.**
 
-Schroef deze vast aan de voorkant, met 2 boutjes
+  <img width="50%" src="instructions-images/montage-10.png">
 
-Plaats achterplaat.
+- Plaats de bovenplaat
 
-Schroef onderste 2 bouten van de achterplaat vast
+  - Schroef de scharnieren met bovenste 2 schroeven vast.
 
-<img width="50%" src="instructions-images/montage-08.png">
+  <img width="50%" src="instructions-images/montage-11.png">
 
-Klik de scharnieren aan de top vast, doe dit met beleid.
 
-<img width="50%" src="instructions-images/montage-09.png">
-
-**PAS OP: de vleugels zijn nogal gevoelig en kunnen snel breken\! Vraag iemand om te helpen, als het niet lukt.**
-
-<img width="50%" src="instructions-images/montage-10.png">
-
-Plaats de bovenplaat
-
-Schroef de scharnieren met bovenste 2 schroeven vast.
-
-<img width="50%" src="instructions-images/montage-11.png">
-
-Klaar\! En veel plezier \!
+**Klaar\! Veel plezier \!**
 
 
 © kunstgraveren.nl 2025
