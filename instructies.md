@@ -1,6 +1,6 @@
 
-<!-- <img width="50%" src="instructions-images/uselessbox-tr.png"> -->
-<img width="50%" src="instructions-images/uselessbox-kg.png">
+<!-- <img align="center" width="50%" src="instructions-images/uselessbox-tr.png"> -->
+<img align="center" width="50%" src="instructions-images/uselessbox-kg.png">
 
 <!-- TOC -->
 
