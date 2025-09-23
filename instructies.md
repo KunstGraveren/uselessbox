@@ -154,7 +154,9 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
     
     Dit houdt in dat je een dunne laag soldeermetaal (tin) aanbrengt op de blootgestelde koperdraden om een betere verbinding te creëren als je ze soldeert.
 
-<img width="30%" src="instructions-images/bedraging-switch.png">
+    <img width="30%" src="instructions-images/bedraging-switch.png">
+
+  - knip de overige lengte van de vertinde uitbeides af zodat er 1/1.5mm over blijft om aan de arduino/switch te solderen
 
 ---
 
@@ -174,17 +176,21 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
    4. Zwart 		\-\> GND op de Arduino  
    5. Geel (signaal) \-\> D3 op de Arduino  
         
-**Servo\**:**  
+**Servo:**
 
    6. Rood (+) 	\-\> 5V op de Arduino  
    7. Zwart (-) 	\-\> GND op de Arduino  
    8. Geel (signaal) \-\> D4 op de Arduino
 
+**\**Condensator:**  
+
+   9. (+) 	\-\> 5V op de Arduino  
+   10. (-) 	\-\> GND op de Arduino  
+   
 
 ** Sommige Nano icm de servo zorgt ervoor dat die in een "restart" loop komt, indien dit gebeurd plaats/gebruik de Condensator (16v 470uF) volgends de tekening.
 
 ---
-
 
 Stapsgewijs gaan wij de draden solderen aan de Arduino. We beginnen met de gecombineerde zwarte draad van de servo en de schakelaar. Soldeer deze aan de **GND** pin van de Arduino.
 
@@ -228,17 +234,18 @@ Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino.
 
 ## **Arduino Pinnen Solderen:**  
 
+
 - Soldeer de Arduino Nano vast aan de pinnen die je in stap 2 hebt geplaatst. Dit is alleen zodat de Arduino Nano blijft zitten in de box. 1 van de 2 pennen is voldoende om dit resultaat te krijgen.
 
   - Let goed op dat je de juiste gaten gebruikt; je dient de buitenste twee soldeergaten aan de hoeken van de Nano te gebruiken voor een correcte en stevige verbinding.
 
   ** uitzondering voor de arduino nano, die extra pinnen hebben. Hierdoor zal deze de één na laaste pinnen bevatten aan de niet usb kant.
 
-  <img width="30%" src="instructions-images/solderen-07.png">
+  <img width="75%" src="instructions-images/solderen-07.png">  
 
 ## **LED Solderen aan de Arduino:** 
-  <img width="10%" src="instructions-images/led-circuit.png">
-  <img width="50%" src="instructions-images/solderen-08.png">
+  
+  <img align="right" width="10%" src="instructions-images/led-circuit.png">
 
   - Plaats de LED op zijn plek. (platte zijde zit aan de rechterkant, in de foto)
 
@@ -247,6 +254,9 @@ Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino.
   - Soldeer de (+) aan pin **5V** van de Arduino. \*(ICSP pins)  
       
   - Soldeer de rode draad die je eerder op **D2** van de Arduino hebt gesoldeerd, vast aan de (data) pin van de LED.
+
+  
+    <img width="75%" src="instructions-images/solderen-08.png">
 
 ---
 
