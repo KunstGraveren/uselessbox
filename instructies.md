@@ -216,13 +216,23 @@ Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino.
 
 <img width="30%" src="instructions-images/solderen-06.png">
 
+**Indien de condensator nodig is, soldeer deze over de **5V** en de **GND**
+
+**LET OP: er is een MIN en een PLUS kant. De kant met witte streep met - - - - moet naar de GND!**
+
+<img width="30%" src="instructions-images/circuit-con.png">
+
+
+
 ---
 
 ## **Arduino Pinnen Solderen:**  
 
-- Soldeer de Arduino Nano vast aan de pinnen die je in stap 2 hebt geplaatst. 
+- Soldeer de Arduino Nano vast aan de pinnen die je in stap 2 hebt geplaatst. Dit is alleen zodat de Arduino Nano blijft zitten in de box. 1 van de 2 pennen is voldoende om dit resultaat te krijgen.
 
   - Let goed op dat je de juiste gaten gebruikt; je dient de buitenste twee soldeergaten aan de hoeken van de Nano te gebruiken voor een correcte en stevige verbinding.
+
+  ** uitzondering voor de arduino nano, die extra pinnen hebben. Hierdoor zal deze de één na laaste pinnen bevatten aan de niet usb kant.
 
   <img width="30%" src="instructions-images/solderen-07.png">
 
@@ -246,13 +256,14 @@ Alles klaar? Laat iemand van de Makerspace je soldeerwerk controleren, waar geza
 
 De led en de servo zouden hun eerste beweging moeten maken. Dit zorgt er ook voor, dat de servo op zijn “uit” positie komt te staan, zodat wanneer de arm gemonteerd wordt deze de juiste plek heeft.
 
+Issues?
+- Blijft de Arduino Nano resetten? --> Soldeer de Condensator!
+
 ---
 
 # 3\. Montage: 
 
 ## **Box:** 
-
-
 
 Monteer de hoek connectors en de servo bracket aan de zijplaten. Let op dat er een boven- en onderkant is. Waar de gleuf zit is de onderkant van het paneel.
 
