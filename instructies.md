@@ -17,9 +17,9 @@
     - [Combineren van Draden:](#combineren-van-draden)
 - [Solderen:](#solderen)
     - [Ver-tinnen:](#ver-tinnen)
-    - [Bedrading Solderen aan de Arduino:](#bedrading-solderen-aan-de-arduino)
-    - [Arduino Pinnen Solderen:](#arduino-pinnen-solderen)
-    - [LED Solderen aan de Arduino:](#led-solderen-aan-de-arduino)
+    - [Bedrading Solderen aan de Arduino Nano:](#bedrading-solderen-aan-de-arduino-nano)
+    - [Arduino Nano Pinnen Solderen:](#arduino-nano-pinnen-solderen)
+    - [LED Solderen aan de Arduino Nano:](#led-solderen-aan-de-arduino-nano)
     - [PowerOn](#poweron)
 - [Montage:](#montage)
     - [Box:](#box)
@@ -141,115 +141,159 @@ Neem vier 2-pins connectoren en plaats deze in de buitenste hoeken van de bodemp
 
 ## **Ver-tinnen:** 
 
+Dit houdt in dat je een dunne laag soldeermetaal (tin) aanbrengt op de blootgestelde koperdraden om een betere verbinding te creëren als je ze soldeert.
+
+**Bedraging:** 
+
 <img align="right" width="20%" src="instructions-images/bedraging-vertinnen.png">
 
 - Ver-tin de uiteinden van de draden die je zojuist hebt gestript en hebt samengevoegd.  
-    
-  - Ver-tin de uiteinden van de schakelaar  
-    
-    Dit houdt in dat je een dunne laag soldeermetaal (tin) aanbrengt op de blootgestelde koperdraden om een betere verbinding te creëren als je ze soldeert.
 
+- knip de overige lengte van de vertinde uitbeides af zodat er 1/1.5mm over blijft om aan de Arduino Nano/switch te solderen
+
+**Schakelaar:** 
+
+- Ver-tin de uiteinden van de schakelaar      
+    
     <img width="30%" src="instructions-images/bedraging-switch.png">
 
-  - knip de overige lengte van de vertinde uitbeides af zodat er 1/1.5mm over blijft om aan de arduino/switch te solderen
+**Arduino Nano:** 
+
+- Ver-tin de pads van de Arduino Nano, zodat we hier later gemakkelijk de bedraging/led aan kunnen solderen:
+  <img width="50%" src="instructions-images/solder-verting-nano.png">  
+
+  - 5v
+  - GND
+  - D2
+  - D3
+  - D4
+  - ICSP -> 5v
+  - ICSP -> GND
 
 ---
 
-## **Bedrading Solderen aan de Arduino:** 
+## **Bedrading Solderen aan de Arduino Nano:** 
 
 **LED:**
 
-<img align="right" width="22.75%" src="instructions-images/circuit.png">
-<img align="right" width="30%" src="instructions-images/circuit-con.png">
+Stapsgewijs gaan wij de draden solderen aan de Arduino Nano. Hier alvast een overzicht van het circuit, daarna een stap voor stap uitleg.
 
-   1. Grijs (+) 	\-\> 5v op de Arduino \*(ICSP pins)  
-   2. Grijs (-) 	\-\> GND op de Arduino \*(ICSP pins)  
-   3. Rood (signaal)	\-\> D2 op de Arduino  
+<img align="right" width="30%" src="instructions-images/circuit-con.png">
+<img align="right" width="22.75%" src="instructions-images/circuit.png">
+
+
+   1. Grijs (+) 	\-\> 5v op de Arduino Nano \*(ICSP pins)  
+   2. Grijs (-) 	\-\> GND op de Arduino Nano \*(ICSP pins)  
+   3. Rood (signaal)	\-\> D2 op de Arduino Nano  
         
 **Schakelaar:**  
 
-   4. Zwart/bruin 		\-\> GND op de Arduino  
-   5. Geel (signaal) \-\> D3 op de Arduino  
+   4. Zwart/bruin 		\-\> GND op de Arduino Nano  
+   5. Geel (signaal) \-\> D3 op de Arduino Nano  
         
 **Servo:**
 
-   6. Rood (+) 	\-\> 5V op de Arduino  
-   7. Zwart/bruin (-) 	\-\> GND op de Arduino  
-   8. Geel (signaal) \-\> D4 op de Arduino
+   6. Rood (+) 	\-\> 5V op de Arduino Nano  
+   7. Zwart/bruin (-) 	\-\> GND op de Arduino Nano  
+   8. Geel (signaal) \-\> D4 op de Arduino Nano
 
 **\*\*Condensator:**  
 
-   9. (+) 	\-\> 5V op de Arduino  
-   10. (-) 	\-\> GND op de Arduino  
+   9. (+) 	\-\> 5V op de Arduino Nano  
+   10. (-) 	\-\> GND op de Arduino Nano  
    
 
-** Sommige Nano icm de servo zorgt ervoor dat die in een "restart" loop komt, indien dit gebeurd plaats/gebruik de Condensator (16v 470uF) volgends de tekening.
+** Sommige Arduino Nano icm de servo zorgt ervoor dat die in een "restart" loop komt, indien dit gebeurd plaats/gebruik de Condensator (16v 470uF) volgends de tekening.
 
 ---
 
-Stapsgewijs gaan wij de draden solderen aan de Arduino. 
-- We beginnen met de gecombineerde zwarte draad van de servo en de schakelaar. Soldeer deze aan de **GND** pin van de Arduino.
+**Stap 1:**
+    
+- We beginnen met de gecombineerde zwarte draad van de servo en de schakelaar. Soldeer deze aan de **GND** pin van de Arduino Nano.
 
   <img width="30%" src="instructions-images/solderen-01.png">
+  <img width="34.4%" src="instructions-images/soldering-01-1.jpeg">
 
+**Stap 2:**
 - Neem het andere uiteinde van de zwarte draad en soldeer deze aan de middelste pin van de schakelaar. 
 
   **Soldeer de draden “ zijwaarts" op de schakelaar.**
 
   <img width="30%" src="instructions-images/solderen-02.png">
+  <img width="26.6%" src="instructions-images/soldering-02-1.jpeg">
 
-- Soldeer het gehalveerde losse rode draad aan **D2** pin van de Arduino. (die straks naar de led gaat)
+**Stap 3:**
+- Soldeer het gehalveerde losse rode draad aan **D2** pin van de Arduino Nano. (die straks naar de led gaat)
 
   <img width="30%" src="instructions-images/solderen-03.png">
+  <img width="34.5%" src="instructions-images/soldering-03-1.jpeg">
 
+**Stap 4:**
 - Soldeer de losse gele draad (signaal) op de schakelaar (deze gaat op een van de buitenste pinnen) 
 
   **Soldeer deze "zijwaarts" op de schakelaar**
 
-- Het andere uiteinde van de gele draad gaat naar de **D3** pin van de Arduino.
+
+
+- Het andere uiteinde van de gele draad gaat naar de **D3** pin van de Arduino Nano.
 
   <img width="30%" src="instructions-images/solderen-04.png">
+  <img width="35%" src="instructions-images/soldering-04-2.jpeg">
+  <img width="21.6%" src="instructions-images/soldering-04-1.jpeg">
 
-- Neem de rode draad van de servo en soldeer deze aan de **5V** pin van de Arduino.
+**Stap 5:**
+
+- Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino Nano.
 
   <img width="30%" src="instructions-images/solderen-05.png">
+  <img width="30%" src="instructions-images/soldering-05-1.jpeg">
 
-- Neem de gele draad van de servo en soldeer deze aan de **D4** pin op de Arduino.
+
+**Stap 6:**
+
+
+- Neem de rode draad van de servo en soldeer deze aan de **5V** pin van de Arduino Nano.
 
   <img width="30%" src="instructions-images/solderen-06.png">
+  <img width="30%" src="instructions-images/soldering-06-1.jpeg">
+  
 
-  **Indien de condensator nodig is, soldeer deze over de **5V** en de **GND**
+  
 
-  **LET OP: er is een MIN en een PLUS kant. De kant met witte streep met - - - - moet naar de GND!**
+**Stap 7 (optioneel):**
 
-  <img width="30%" src="instructions-images/circuit-con.png">
+  - **Indien de condensator nodig is, soldeer deze over de **5V** en de **GND**
+
+    **LET OP: er is een MIN en een PLUS kant. De kant met witte streep met - - - - moet naar de GND!**
+
+    <img width="30%" src="instructions-images/circuit-con.png">
 
 
 
 ---
 
-## **Arduino Pinnen Solderen:**  
+## **Arduino Nano Pinnen Solderen:**  
 
 
 - Soldeer de Arduino Nano vast aan de pinnen die je in stap 2 hebt geplaatst. Dit is alleen zodat de Arduino Nano blijft zitten in de box. 1 van de 2 pennen is voldoende om dit resultaat te krijgen.
 
-  - Let goed op dat je de juiste gaten gebruikt; je dient de buitenste twee soldeergaten aan de hoeken van de Nano te gebruiken voor een correcte en stevige verbinding.
+  - Let goed op dat je de juiste gaten gebruikt; je dient de buitenste twee soldeergaten aan de hoeken van de Arduino Nano te gebruiken voor een correcte en stevige verbinding.
 
-  ** uitzondering voor de arduino nano, die extra pinnen hebben. Hierdoor zal deze de één na laaste pinnen bevatten aan de niet usb kant.
+  ** uitzondering voor de Arduino nano, die extra pinnen hebben. Hierdoor zal deze de één na laaste pinnen bevatten aan de niet usb kant.
 
   <img width="75%" src="instructions-images/solderen-07.png">  
 
-## **LED Solderen aan de Arduino:** 
+## **LED Solderen aan de Arduino Nano:** 
   
   <img align="right" width="10%" src="instructions-images/led-circuit.png">
 
   - Plaats de LED op zijn plek. (platte zijde zit aan de rechterkant, in de foto)
 
-  - Soldeer de (-) aan de **GND** pin van de Arduino. \*(ICSP pins)  
+  - Soldeer de (-) aan de **GND** pin van de Arduino Nano. \*(ICSP pins)  
       
-  - Soldeer de (+) aan pin **5V** van de Arduino. \*(ICSP pins)  
+  - Soldeer de (+) aan pin **5V** van de Arduino Nano. \*(ICSP pins)  
       
-  - Soldeer de rode draad die je eerder op **D2** van de Arduino hebt gesoldeerd, vast aan de (data) pin van de LED.
+  - Soldeer de rode draad die je eerder op **D2** van de Arduino Nano hebt gesoldeerd, vast aan de (data) pin van de LED.
 
   
     <img width="75%" src="instructions-images/solderen-08.png">
@@ -303,7 +347,7 @@ Issues?
 
   <img width="50%" src="instructions-images/montage-07.png">
   
-  - **PS, mocht de Arduino nog niet aan geweest zijn, is dit hét moment om dit te doen. Dit zodat deze de servo in de 180 graden stand zet (sluit stand / box dicht).**
+  - **PS, mocht de Arduino Nano nog niet aan geweest zijn, is dit hét moment om dit te doen. Dit zodat deze de servo in de 180 graden stand zet (sluit stand / box dicht).**
 
   - Als de arm gemonteerd is, kan je controleren of die goed zit, door hem op stroom aan te sluiten. Als de arm goed zit, schroef de arm vast.
 
