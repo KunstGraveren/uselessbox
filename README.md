@@ -6,8 +6,10 @@ Voor die de Useless Box hebben gemaakt tijdens The Reality 2025.
   - Bekende problemen:
       
       - Herstartende Nano
-          - Servo vraagt net iets te veel stroom van de nano, waardoor een restart plaatsvindt. Een (16v 470uF) over de + servo / GND heen lost dit op.
-
+          - Servo vraagt net iets te veel stroom van de nano, waardoor een restart plaatsvindt.
+          -   16v 470uF over de 5v / GND heen lost dit op. --> Arduino Nano Micro USB
+          -   10v 1000uF over de 5v / GND heen lost dit op. --> Arduino Nano USB C
+          
       - Niet bereiken van de schakelaar
 
   - Code Fixes:
@@ -45,7 +47,7 @@ Hier is een samenvatting en uitleg van de code, samen met de verschillen tussen 
 - Schakelaar MTS102 ON-ON
 - Servo motor SG90
 - WS2812B LED-strip (1 LED)
-- **Condensator (16v 470uF)
+- **Condensator (16v 470uF / 10v 1000uF)
 
 ** Sommige Nano icm de servo zorgt ervoor dat die in een "restart" loop komt, indien dit gebeurd plaats/gebruik de condensator volgends de tekening.
 
