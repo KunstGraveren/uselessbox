@@ -384,4 +384,4 @@ Issues?
 **Klaar\! Veel plezier \!**
 
 
-© kunstgraveren.nl 2025
+© kunstgraveren.nl 2026
