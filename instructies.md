@@ -304,6 +304,8 @@ Stapsgewijs gaan wij de draden solderen aan de Arduino Nano. Hier alvast een ove
 
 Alles klaar? Laat iemand van de Makerspace je soldeerwerk controleren, waar gezamenlijk een check wordt gedaan door hem aan te sluiten op stroom.
 
+- upload firmware: https://kunstgraveren.github.io/
+
 De led en de servo zouden hun eerste beweging moeten maken. Dit zorgt er ook voor, dat de servo op zijn “uit” positie komt te staan, zodat wanneer de arm gemonteerd wordt deze de juiste plek heeft.
 
 Issues?
