@@ -327,7 +327,7 @@ Issues?
 
   <img width="100%" src="instructions-images/montage-01.png">
 
-- Monteer de schakelaar in de voorplaat waarbij de gele draad naar beneden moet. 
+- Monteer de schakelaar in de voorplaat waarbij de gele draad naar `boven` moet. 
 
   <img width="50%" src="instructions-images/montage-02.png">
 
