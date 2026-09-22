@@ -1,12 +1,14 @@
 # How to Upload Code to an Arduino Nano (AVR) Using the Arduino IDE
 
-<!-- ## Windows: Install the CH340 Driver
+The Arduino Nano you got is a clone, make sure to install drivers before using Arduino IDE. 
+Many systems will not recognise them automatically. It all comes down to missing CH340/CH341 drivers.
+
+## Windows: Install the CH340/CH341 Driver
 1. Visit the manufacturer's Chinese info link for the CH340 driver : https://www.infwin.com/resource-usb-to-serial-port-driver-ch340-series/
-2. Download the Windows CH340 Driver.
+2. Download the Windows CH340/CH341 Driver.
 3. Unzip the downloaded file.
 4. Run the installer executable from the unzipped folder.
 5. Restart your PC
--->
 
 ---
 
